@@ -1,0 +1,2 @@
+/* b2b_guide2 main.js Date:2016-05-26 16:23:58 */
+seajs.use(["jdf/1.0.0/ui/fixable/1.0.0/fixable","jdf/1.0.0/ui/elevator/1.0.0/elevator","jdf/1.0.0/ui/gotop/1.0.0/gotop"],function(){$("#elevator").fixable({x:"right",y:"bottom",xValue:-$("#elevator").width()-20,yValue:"center",context:$(".elevator-floor")}),$("body").elevator({floorClass:"elevator-floor",elevatorClass:"ui-elevator",handlerClass:"ui-elevator-handler",selectClass:"curr",threshold:200,onStart:function(){},onEnd:function(){}}),$("#elevator").gotop({gotopClass:"e-gotop",hasAnimate:!0,scrollTop:200})});
